@@ -1,7 +1,13 @@
-import pyttsx3
+'''
+See for inspo; 
+https://www.youtube.com/watch?v=MnYwCurv54c&ab_channel=Tommy%27sCodebase
+
+'''import pyttsx3
 import speech_recognition as sr
 import openai
 import env
+
+
 
 # openai KEY
 openai.api_key = env.OPEN_AI_KEY
