@@ -1,5 +1,5 @@
 import pyttsx3
-engine = pyttsx3.init('sapi5')
+engine = pyttsx3.init()
 voices = engine.getProperty('voices')
 for voice in voices:
     print(voice, voice.id)
