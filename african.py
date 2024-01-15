@@ -2,7 +2,8 @@
 See for inspo; 
 https://www.youtube.com/watch?v=MnYwCurv54c&ab_channel=Tommy%27sCodebase
 
-'''import pyttsx3
+'''
+import pyttsx3
 import speech_recognition as sr
 import openai
 import env
@@ -13,7 +14,7 @@ import env
 openai.api_key = env.OPEN_AI_KEY
 
 # Initialize the speech engine
-engine = pyttsx3.init(driverName='sapi5')  # Specify the driverName
+engine = pyttsx3.init()
 
 def speak(word):
     engine.setProperty('rate', 135)
@@ -39,7 +40,7 @@ with sr.Microphone() as source:
 test = rec.recognize_google(audio)
 
 discussion = openai.Completion.create(
-    prompt=text,
+    prompt=question,
     engine='text-davinci-002',
     max_tokens=1000,
 )
