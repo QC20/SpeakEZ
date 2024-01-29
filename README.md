@@ -7,6 +7,9 @@ Utilizing a Python program, SpeakEZ integrates Picovoice Porcupine for wake word
 
 ![Data Processing Chain](Voice-ChatGPT-on-Raspberry-Pi.jpeg)
 
+## Dialog Management
+At the core of modern conversational agents lies the "dialog manager," which determines suitable outputs based on user inputs. Inputs are categorized into _audio_ and _transcript_, with most implementations converting audio to text for efficiency. Dialog managers typically produce text outputs, facilitating flexibility for different text-to-speech implementations.
+
 ## Key Features:
 
 - **Voice Interaction:** Engage in natural conversations with SpeakEZ, whether you're asking questions or requesting assistance.
