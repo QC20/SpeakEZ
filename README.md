@@ -3,6 +3,10 @@ SpeakEZ, your advanced ChatGPT virtual assistant, empowers you with voice-contro
 
 Utilizing a Python program, SpeakEZ integrates Picovoice Porcupine for wake word detection, Picovoice Cobra for voice activity detection, and Picovoice Leopard for converting spoken queries to text. Leveraging OpenAI's ChatGPT, Amazon Polly's text-to-speech capabilities, and an audio player, SpeakEZ delivers a comprehensive voice interaction experience.
 
+
+
+![Data Processing Chain](Voice-ChatGPT-on-Raspberry-Pi.jpeg)
+
 ## Key Features:
 
 - **Voice Interaction:** Engage in natural conversations with SpeakEZ, whether you're asking questions or requesting assistance.
