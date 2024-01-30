@@ -29,3 +29,12 @@ At the core of modern conversational agents lies the "dialog manager," which det
    - AWS: Create an AWS account and obtain your personal access key and secret access key.
 3. **Follow Instructions:** Execute the steps below to prepare your Raspberry Pi and download SpeakEZ - The ChatGPT Virtual Assistant.
 
+
+
+## Summary
+Leverage the capabilities of Raspberry Pi and voice recognition technology to establish a seamless and natural interaction with ChatGPT. This hands-free methodology not only elevates user experience but also unlocks innovative opportunities for voice-based AI applications across diverse domains. Get your Raspberry Pi, explore your creative potential, and experience ChatGPT responding to your voice commands in unprecedented ways.
+
+
+
+
+
