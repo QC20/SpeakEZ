@@ -1,16 +1,16 @@
 # SpeakEZ
+
 SpeakEZ, your advanced ChatGPT virtual assistant, empowers you with voice-controlled interactions and intelligent responses. Harnessing OpenAI's cutting-edge language model, SpeakEZ assists you in a myriad of tasks, from answering questions and providing information to generating suggestions, telling jokes, and even crafting stories. It seamlessly transitions between spoken and written responses, adapting to your device's display capabilities.
-
+ 
 Utilizing a Python program, SpeakEZ integrates Picovoice Porcupine for wake word detection, Picovoice Cobra for voice activity detection, and Picovoice Leopard for converting spoken queries to text. Leveraging OpenAI's ChatGPT, Amazon Polly's text-to-speech capabilities, and an audio player, SpeakEZ delivers a comprehensive voice interaction experience.
-
-
 
 ![Data Processing Chain](Voice-ChatGPT-on-Raspberry-Pi.jpeg)
 
 ## Dialog Management
+
 At the core of modern conversational agents lies the "dialog manager," which determines suitable outputs based on user inputs. Inputs are categorized into _audio_ and _transcript_, with most implementations converting audio to text for efficiency. Dialog managers typically produce text outputs, facilitating flexibility for different text-to-speech implementations.
 
-## Key Features:
+## Key Features
 
 - **Voice Interaction:** Engage in natural conversations with SpeakEZ, whether you're asking questions or requesting assistance.
 - **Wake Word Detection:** Utilize Picovoice Porcupine to trigger SpeakEZ with a custom wake word.
@@ -28,4 +28,11 @@ At the core of modern conversational agents lies the "dialog manager," which det
    - Picovoice: Create a Picovoice account and get your secret access key.
    - AWS: Create an AWS account and obtain your personal access key and secret access key.
 3. **Follow Instructions:** Execute the steps below to prepare your Raspberry Pi and download SpeakEZ - The ChatGPT Virtual Assistant.
+
+
+## Summary
+
+Leverage the capabilities of Raspberry Pi and voice recognition technology to establish a seamless and natural interaction with ChatGPT. This hands-free methodology not only elevates user experience but also unlocks innovative opportunities for voice-based AI applications across diverse domains. Get your Raspberry Pi, explore your creative potential, and experience ChatGPT responding to your voice commands in unprecedented ways.
+
+
 
