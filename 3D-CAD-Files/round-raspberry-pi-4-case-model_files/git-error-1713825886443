@@ -1,0 +1,2 @@
+> git pull --tags origin main
+fatal: invalid value for 'pull.rebase': 'fals'
